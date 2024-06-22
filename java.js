@@ -65,7 +65,7 @@ function checkForWin(player) {
     if (
         squares[1].textContent === player &&
         squares[4].textContent === player &&
-        squares[7].text
+        squares[7].textContent ===player
     ) {
         return true;
     }
